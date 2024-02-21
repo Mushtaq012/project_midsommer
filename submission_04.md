@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="wordpress-plugin-translatepress-2.0.8---stored-cross-site-scripting-xss-authenticated---cve-2021-24610"># WordPress Plugin TranslatePress 2.0.8 - Stored Cross-Site Scripting (XSS) (Authenticated) : # CVE-2021-24610</h1>
+<h1 id="wordpress-plugin-translatepress-2.0.8---stored-cross-site-scripting-xss-authenticated---cve-2021-24610">WordPress Plugin TranslatePress 2.0.8 - Stored Cross-Site Scripting (XSS) (Authenticated) : # CVE-2021-24610</h1>
 <p><strong>Severity : Medium</strong></p>
 <h1 id="description">Description</h1>
 <p>Malicious JavaScript code can be injected into the TranslatePress plugin’s database-stored settings by an authenticated user. Because of this vulnerability, an attacker can run any code within the sessions of other users, which could result in additional exploitation, data theft, or privilege escalation.</p>
