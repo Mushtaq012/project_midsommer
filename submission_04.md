@@ -18,12 +18,13 @@ To obtain user credentials, Refer the following link: <a href="https://github.co
 <p><a href="https://ibb.co/GcnYxYC"><img src="https://i.ibb.co/zGQ9n9P/aaaa.png" alt="aaaa" border="0"></a></p>
 <p>The following steps demonstrate how to perform a XSS attack using the Plugin TranslatePress 2.0.8</p>
 <p><strong>Step 1</strong></p>
-<p>Obtain administrator authentication. This resulted in the page uploading potentially harmful plugins. To take use of the XSS, download TranslatePress 2.0.8. To download the TranslatePress 2.0.8 plugin, go to the exploitdb page and search for the vulnerable plugin.</p>
-<p><a href="https://ibb.co/jwfQV7x"><img src="https://i.ibb.co/qgjc0b4/bbbb.png" alt="bbbb" border="0"></a></p>
+<p>Obtain administrator authentication. This resulted in the page uploading potentially harmful plugins. To take use of the XSS, download TranslatePress 2.0.8 which is vulnerable to XSS. To download the TranslatePress 2.0.8 plugin, go to the exploitdb page and search for the vulnerable plugin.</p>
 <p>Choose TranslatePress 2.0.8, which is required in this instance.</p>
+<p><a href="https://ibb.co/jwfQV7x"><img src="https://i.ibb.co/qgjc0b4/bbbb.png" alt="bbbb" border="0"></a></p>
+<p>And download it through the Vulnerable Application field.</p>
 <p><a href="https://ibb.co/0998d8b"><img src="https://i.ibb.co/SmmW9WC/cccc.png" alt="cccc" border="0"></a></p>
 <p><strong>Step 2</strong></p>
-<p>Once TranslatePress is downloaded. It required to be uploaded to the website using the Admin Panel’s Plugin Upload function.<br>
+<p>Once TranslatePress 2.0.8 is downloaded. It required to be uploaded to the website using the Admin Panel’s Plugin Upload function.<br>
 In the left side panel, go to Plugins and add a new plugin.</p>
 <p><a href="https://ibb.co/sqWJSgM"><img src="https://i.ibb.co/fHDGRXP/ddddd.png" alt="ddddd" border="0"></a></p>
 <p>Using the Add a New Plugin option Upload the Plugin that was downloaded.</p>
@@ -37,7 +38,7 @@ In the left side panel, go to Plugins and add a new plugin.</p>
 <p>Also, on the installed plugin page, the plugin can be activated.</p>
 <p><a href="https://ibb.co/DfrRD0P"><img src="https://i.ibb.co/1GzmfFY/iii.png" alt="iii" border="0"></a></p>
 <p><strong>Step 3</strong></p>
-<p>The TranslatePress plugin is currently installed and activated, It can be seen on the Installed Plugins page.</p>
+<p>Once the TranslatePress plugin is currently installed and activated, It will be shown on the Installed Plugins page.</p>
 <p><a href="https://ibb.co/G0ZBtDQ"><img src="https://i.ibb.co/9NxzV0H/jjjj.png" alt="jjjj" border="0"></a></p>
 <p>Once TranslatePress is activated, it will appear at the bottom of the settings option.</p>
 <p><a href="https://ibb.co/qRw8CRh"><img src="https://i.ibb.co/tb56zbn/kkkk.png" alt="kkkk" border="0"></a></p>
@@ -49,8 +50,9 @@ Using the “new string to translate” drop down menu select the Search option.
 <p>On the “Translate to English” field, it’s necessary to execute our code to trigger the XSS vulnerability.</p>
 <p><a href="https://ibb.co/LYJmG2j"><img src="https://i.ibb.co/n6n9W5d/mmmmm.png" alt="mmmmm" border="0"></a></p>
 <p>The vulnerability can be assessed by testing with a basic JavaScript alert code as shown below.</p>
-<p>After Entering the script, if the field is exposed to XSS, it will display an alert stating <strong>‘This_is_XSS’</strong> and saving the translation, an alert will be triggered every time someone visits the page.</p>
+<p>After Entering the script, if the field is exposed to XSS, it will display an alert stating <strong>‘This_is_XSS’</strong>.</p>
 <p><a href="https://ibb.co/Px7vwfy"><img src="https://i.ibb.co/qBt3kP8/nnnn.png" alt="nnnn" border="0"></a></p>
+<p>And saving the translation, an alert will be triggered every time someone visits the page.</p>
 <p><a href="https://ibb.co/SJ659Kh"><img src="https://i.ibb.co/JCcmMzf/Screenshot-2024-02-21-213833.png" alt="Screenshot-2024-02-21-213833" border="0"></a></p>
 <p>As shown above, once the translation was saved, an ALERT will appear on the website stating <strong>This_is_XSS</strong>.<br>
 This Alert will be displayed when we visit the main webpage also.</p>
