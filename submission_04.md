@@ -45,8 +45,8 @@ In the left side panel, go to Plugins and add a new plugin.</p>
 <p>Navigate to the TranslatePress page in the Settings panel and choose TranslateSite.</p>
 <p>The page will then redirect to a new site.<br>
 Where the TranslatePress editing page is located.<br>
-Using the “new string to translate” drop down menu select the Search option.<br>
-<a href="https://ibb.co/R6JKQ0x"><img src="https://i.ibb.co/7p0DrWw/lllll.png" alt="lllll" border="0"></a></p>
+Using the “new string to translate” drop down menu select the Search option.</p>
+<p><a href="https://ibb.co/R6JKQ0x"><img src="https://i.ibb.co/7p0DrWw/lllll.png" alt="lllll" border="0"></a></p>
 <p>On the “Translate to English” field, it’s necessary to execute our code to trigger the XSS vulnerability.</p>
 <p><a href="https://ibb.co/LYJmG2j"><img src="https://i.ibb.co/n6n9W5d/mmmmm.png" alt="mmmmm" border="0"></a></p>
 <p>The vulnerability can be assessed by testing with a basic JavaScript alert code as shown below.</p>
