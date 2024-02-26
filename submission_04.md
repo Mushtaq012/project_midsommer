@@ -14,7 +14,7 @@
 Difficulty to Exploit: Low</p>
 <h2 id="proof-of-concept">Proof of Concept</h2>
 <p>Authentication credentials were obtained through a brute force attack.<br>
-To obtain user credentials, Refer the following link: <a href="https://github.com/Mushtaq012/project_midsommer/blob/master/submission_01.md">https://github.com/Mushtaq012/project_midsommer/blob/master/submission_01.md</a></p>
+To obtain user credentials, Refer the following link:</p>
 <p><a href="https://ibb.co/GcnYxYC"><img src="https://i.ibb.co/zGQ9n9P/aaaa.png" alt="aaaa" border="0"></a></p>
 <p>The following steps demonstrate how to perform a XSS attack using the Plugin TranslatePress 2.0.8</p>
 <p><strong>Step 1</strong></p>
